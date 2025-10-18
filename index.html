@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>HTML Form Example</h1>
+        <p>This is an example of an <del>HTML4</del> <span style="text-decoration: underline;">HTML5</span> form contining يحتوي various <mark>input</mark> controls:</p>
+        <form>
+            <fieldset>
+                <legend>User Information</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username">
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="pass">password:</label>
+                <input type="password" id="pass">
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="phone">phone:</label>
+                <input type="number" id="phone">
+                <br>
+                <br>
+                <label for="msg">Message:</label>
+                <br>
+                <textarea rows="6" cols="68" id="msg"></textarea>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Subscription</legend>
+                <label for="ch1">Subscribe to newsletter:</label>
+                <input name="checkBox" type="checkbox" id="ch1">
+                <br>
+                <label for="ch2">Subscribe to newsletter:</label>
+                <input name="checkBox" type="checkbox" id="ch2">
+            </fieldset>
+        </form>
+         <form>
+            <fieldset>
+                <legend>Preferred Language</legend>
+                <label for="list">Select Your Preferred Lnaguage:</label>
+                <select id="list" name="Language">
+                    <option>English</option>
+                    <option>Spanish</option>
+                    <option>French</option>
+                    <option>German</option>
+                </select>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Feedback</legend>
+                <label for="scale">Rate Our Service:</label>
+                <input type="range" id="scale">
+             </fieldset>
+        </form>
+        <input type="submit" >
+        <input type="reset">
+    </body>
+</html>
